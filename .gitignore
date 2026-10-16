@@ -1,0 +1,14 @@
+# Local credentials and device data
+secrets.yaml
+*.private.*
+
+# ESPHome builds and Python environments
+.esphome/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+tests/build/
+
+# Operating system metadata
+.DS_Store
